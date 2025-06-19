@@ -9,3 +9,4 @@ C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\D
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\refint\Vote.dll
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\Vote.pdb
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\ref\Vote.dll
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\Vote.sourcelink.json

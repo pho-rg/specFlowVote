@@ -1314,7 +1314,10 @@
       },
       "Vote/1.0.0": {
         "runtime": {
-          "Vote.dll": {}
+          "Vote.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -109,7 +109,6 @@ C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVo
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\SpecFlowVote.AssemblyInfoInputs.cache
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\SpecFlowVote.AssemblyInfo.cs
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\SpecFlowVote.csproj.CoreCompileInputs.cache
-C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\SpecFlowVote.csproj.CopyComplete
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\SpecFlowVote.dll
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\refint\SpecFlowVote.dll
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\SpecFlowVote.pdb
@@ -117,3 +116,5 @@ C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVo
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\ref\SpecFlowVote.dll
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\bin\Debug\net6.0\Vote.dll
 C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\bin\Debug\net6.0\Vote.pdb
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\SpecFlowVote.sourcelink.json
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\SpecFlowVote\obj\Debug\net6.0\SpecFlow.717B0CF7.Up2Date

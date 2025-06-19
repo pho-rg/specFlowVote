@@ -2,6 +2,8 @@
 
 namespace SpecFlowVote.Steps;
 
+using VoteAPI;
+
 [Binding]
 public sealed class VoteStepDefinitions
 {
@@ -10,8 +12,8 @@ public sealed class VoteStepDefinitions
     private readonly ScenarioContext _scenarioContext;
     private readonly Vote _vote = new Vote();
 
-    private Dictionary<string, int> _votes = new Dictionary<string, int>();
     private string _electedCandidate;
+    private Dictionary<string, VoteResult> _poolingResults;
     
     public VoteStepDefinitions(ScenarioContext scenarioContext)
     {
@@ -21,13 +23,13 @@ public sealed class VoteStepDefinitions
     [Given(@"the targeted pooling state is closed")]
     public void GivenTheTargetedPoolingStateIsClosed()
     {
-        _vote.IsPollingClosed = true;
+        _vote.IsPoolingClosed = true;
     }
 
     [Given(@"the targeted pooling round is (.*)")]
     public void GivenTheTargetedPoolingRoundIs(int round)
     {
-        _vote.CurrentRound = round;
+        _vote.PoolingRound = round;
     }
 
     [Given(@"the following candidates have votes:")]
@@ -53,5 +55,35 @@ public sealed class VoteStepDefinitions
     {
         Assert.Equal(candidate, _electedCandidate);
     }
+    
+    [Then(@"the second round should be (.*)")]
+    public void ThenTheSecondRoundShouldBePlanned(bool secondRound)
+    {
+        Assert.Equal(secondRound, _vote.IsSecondRoundPlanned);
+    }
 
+    [Then(@"candidates should be (.*) and (.*)")]
+    public void ThenCandidatesShouldBeAnd(string candidate1, string candidate2)
+    {
+        var secondRoundCandidates = _vote.GetSecondRoundCandidates();
+        
+        Assert.Contains(candidate1, secondRoundCandidates);
+        Assert.Contains(candidate2, secondRoundCandidates);
+    }
+    
+    [Then(@"the result should include:")]
+    public void ThenTheResultShouldInclude(Table table)
+    {
+        _poolingResults = _vote.ComputePooling(_vote.Votes);
+        
+        foreach (var row in table.Rows)
+        {
+            var candidate = row["Candidate"];
+            var expectedPercentage = row["Percentage"];
+
+            Assert.True(_poolingResults.ContainsKey(candidate));
+            var result = _poolingResults[candidate];
+            Assert.Equal(expectedPercentage, result.Percentage);
+        }
+    }
 }
