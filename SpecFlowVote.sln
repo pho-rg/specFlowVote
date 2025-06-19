@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowVote", "SpecFlowVote\SpecFlowVote.csproj", "{04D28C21-B1BB-4350-8ACD-C90E3E6E2A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vote", "Vote\Vote.csproj", "{DE59BA8C-E0F6-43CE-8DD6-B3CA7A0ECB46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04D28C21-B1BB-4350-8ACD-C90E3E6E2A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D28C21-B1BB-4350-8ACD-C90E3E6E2A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D28C21-B1BB-4350-8ACD-C90E3E6E2A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D28C21-B1BB-4350-8ACD-C90E3E6E2A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE59BA8C-E0F6-43CE-8DD6-B3CA7A0ECB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE59BA8C-E0F6-43CE-8DD6-B3CA7A0ECB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE59BA8C-E0F6-43CE-8DD6-B3CA7A0ECB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE59BA8C-E0F6-43CE-8DD6-B3CA7A0ECB46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

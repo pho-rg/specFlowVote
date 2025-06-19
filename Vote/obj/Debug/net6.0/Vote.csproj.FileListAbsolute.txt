@@ -1,0 +1,11 @@
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\bin\Debug\net6.0\Vote.deps.json
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\bin\Debug\net6.0\Vote.dll
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\bin\Debug\net6.0\Vote.pdb
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\Vote.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\Vote.AssemblyInfoInputs.cache
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\Vote.AssemblyInfo.cs
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\Vote.csproj.CoreCompileInputs.cache
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\Vote.dll
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\refint\Vote.dll
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\Vote.pdb
+C:\Users\phdor\Documents\lightsout\m1_behaviourDomainDev\SpecFlowVote\Vote\obj\Debug\net6.0\ref\Vote.dll
